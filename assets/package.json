@@ -6,6 +6,6 @@
     "check": "node scripts/build.mjs --check && node --check js/*.mjs && node --check ../priv/static/beam_console.mjs && node --check ../priv/static/beam_console_support.mjs && node --check ../priv/static/beam_console_theme.js && node --check ../priv/static/cytoscape.esm.min.mjs && node --test test/*.test.mjs && node scripts/check-vendor.mjs"
   },
   "dependencies": {
-    "cytoscape": "^3.34.3"
+    "cytoscape": "^3.34.4"
   }
 }
