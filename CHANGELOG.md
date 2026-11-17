@@ -2,6 +2,18 @@
 
 ## Unreleased
 
+## 0.5.5 - 2026-11-17
+
+### Security
+
+- Update Plug to 1.20.4 to fix a multipart parser memory issue (EEF-CVE-2026-120287, GHSA-qj4r-jh2r-rw3f) (#57).
+
+### Dependencies
+
+- Update the locked Phoenix, Phoenix LiveView, and Phoenix HTML dependencies (#47, #52).
+- Update development dependencies, including Sobelow and LazyHTML (#35, #51, #56).
+- Update CI and security workflow actions (#37, #48, #49, #53, #54).
+
 ## 0.5.4 - 2026-10-03
 
 - Update the locked Phoenix, Phoenix LiveView, and Cytoscape dependencies and refresh the shipped Cytoscape bundle.
